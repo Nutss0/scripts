@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<mCompanyGraphics>
+    <mCompanyGraphics_Element type="background" autoHeight="true" size="0.15 0.6" pos="0.84 0.02" r="0.01584" g="0.01584" b="0.01584" alpha="1" uvName="g_colorBgUVs">
+		
+		<mCompanyGraphics_Element type="text" pos="0.855 0.2" text="$l10n_SeedBigBagAbfueller" textHeight="0.013" bold="true" margin="0 0 0.01 0.004"/>
+			
+		<mCompanyGraphics_Element type="text" pos="0.855 0.2" text="$l10n_input_SeedBigBagAbfueller" textHeight="0.013" bold="true" margin="0 0 0.01 0.003"/>
+			<mCompanyGraphics_Element type="text" name="Getreide2" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0.002" onSet="onSetTextName_Input"/>
+			<mCompanyGraphics_Element type="text" name="Getreide2" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0.002" onSet="onSetTextLevel_Input"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="Getreide2" onSet="onSetBarLevel_Input" pos="0.855 0.2" size="0.1 0.010" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.0044" g="0.15" b="0.6376" Text_r="1" Text_g="1" Text_b="1"  Background_r="0.015" Background_g="0.015" Background_b="0.015" margin="0 0 0.004 0.004"/> 
+
+			<mCompanyGraphics_Element type="text" name="Saatgutbeizer" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0.002" onSet="onSetTextName_Input"/>
+			<mCompanyGraphics_Element type="text" name="Saatgutbeizer" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0.002" onSet="onSetTextLevel_Input"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="Saatgutbeizer" onSet="onSetBarLevel_Input" pos="0.855 0.2" size="0.1 0.010" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.038" g="0.69" b="0.8388" Text_r="1" Text_g="1" Text_b="1"  Background_r="0.015" Background_g="0.015" Background_b="0.015" margin="0 0 0.004 0.004"/> 
+	</mCompanyGraphics_Element>
+</mCompanyGraphics>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<mCompanyGraphics>
+	<mCompanyGraphics_Element type="background" size="0.38 0.64" pos="0.36 0.28" r="0.01" g="0.01" b="0.01" alpha="0.5" uvName="g_colorBgUVs">			
+		<mCompanyGraphics_Element type="text" pos="0.41 0.48" text="$l10n_buyable_header2" textHeight="0.02" bold="true" margin="0 0 0.15 0.39" r="1" g="1" b="1"/>
+	</mCompanyGraphics_Element>
+		
+	<mCompanyGraphics_Element type="background" autoHeight="true" size="0.34 0.8" pos="0.38 0.3" r="0.01684" g="0.01684" b="0.01684" alpha="1" uvName="g_colorBgUVs">		
+			<mCompanyGraphics_Element type="text" pos="0.42 0.51" text="$l10n_buyable_pigshed1" textHeight="0.017" bold="true" margin="0 0 0.03 0.01" r="1" g="1" b="1"/>
+			
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_pigshed2" textHeight="0.016" bold="false" margin="0 0 0.01 0.001" r="1" g="1" b="1"/>
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_pigshed3" textHeight="0.016" bold="false" margin="0 0 0.01 0.001" r="1" g="1" b="1"/>
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_pigshed4" textHeight="0.016" bold="false" margin="0 0 0.01 0.001" r="1" g="1" b="1"/>
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_pigshed5" textHeight="0.016" bold="false" margin="0 0 0.01 0.001" r="1" g="1" b="1"/>
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_pigshed6" textHeight="0.016" bold="false" margin="0 0 0.01 0.001" r="1" g="1" b="1"/>
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_pigshed7" textHeight="0.016" bold="false" margin="0 0 0.01 0.001" r="1" g="1" b="1"/>
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_pigshed8" textHeight="0.016" bold="false" margin="0 0 0.01 0.001" r="1" g="1" b="1"/>
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_empty" textHeight="0.016" bold="false" margin="0 0 0.01 0.001" r="1" g="1" b="1"/>			
+			
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_buyInfo1" textHeight="0.016" bold="true" margin="0 0 0.05 0.001" r="1" g="1" b="1"/>
+			<mCompanyGraphics_Element type="text" name="Geld" pos="0.43 0.48" textHeight="0.016" margin="0 0 0.003 0.003" onSet="onSetTextLevel_Input"/>			
+			<mCompanyGraphics_Element type="text" pos="0.43 0.51" text="$l10n_buyable_buyInfo2" textHeight="0.016" bold="false" margin="0 0 0.04 0.02" r="0.5" g="0" b="0"/>
+	</mCompanyGraphics_Element>
+</mCompanyGraphics>

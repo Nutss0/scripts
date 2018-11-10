@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<mCompanyGraphics>
+	<mCompanyGraphics_Element type="background" autoHeight="true" size="0.15 0.6" pos="0.84 0.02" r="0.01584" g="0.01584" b="0.01584" alpha="1" uvName="g_colorBgUVs">
+				
+		<mCompanyGraphics_Element type="text" pos="0.855 0.2" text="$l10n_Rohstoffe" textHeight="0.017" bold="true" margin="0 0 0.01 0.004"/>
+		
+			<mCompanyGraphics_Element type="text" text="$l10n_shopItem_piglet" name="Ferkel" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0" onSet="onSetTextName_Input"/>
+			<mCompanyGraphics_Element type="text" name="Ferkel" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0.002" onSet="onSetTextLevel_Input"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="Ferkel" onSet="onSetBarLevel_Input" pos="0.855 0.2" size="0.1 0.015" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.790" g="0.620" b="0.440" Text_r="1" Text_g="1" Text_b="1"  Background_r="0.15" Background_g="0.15" Background_b="0.15" margin="0 0 0 0.004"/> 
+			
+			<mCompanyGraphics_Element type="text" text="$l10n_Stroh" name="Stroh" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0" onSet="onSetTextName_Input"/>
+			<mCompanyGraphics_Element type="text" name="Stroh" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0.002" onSet="onSetTextLevel_Input"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="Stroh" onSet="onSetBarLevel_Input" pos="0.855 0.2" size="0.1 0.015" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.9301" g="0.7605" b="0.0232" Text_r="1" Text_g="1" Text_b="1"  Background_r="0.15"  Background_g="0.15" Background_b="0.15" margin="0 0 0 0.004"/> 
+		
+			<mCompanyGraphics_Element type="text" text="$l10n_Schweinefutter2" name="Schweinefutter" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0" />
+			<mCompanyGraphics_Element type="text" name="Schweinefutter" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0.002" onSet="onSetTextLevel_Input"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="Schweinefutter" onSet="onSetBarLevel_Input" pos="0.855 0.2" size="0.1 0.015" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.2384" g="0.1878" b="0.0437" Text_r="1" Text_g="1" Text_b="1"  Background_r="0.15"  Background_g="0.15" Background_b="0.15" margin="0 0 0 0.012"/> 
+			
+		<mCompanyGraphics_Element type="text" pos="0.855 0.2" text="$l10n_Produkte" textHeight="0.017" bold="true" margin="0 0 0.012 0.004"/>
+			
+			<mCompanyGraphics_Element type="text" text="$l10n_Input1_GL" name="Guelle" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.01 0" onSet="onSetTextName_Output"/>
+			<mCompanyGraphics_Element type="text" name="Guelle" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0.002" onSet="onSetTextLevel_Output"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="Guelle" onSet="onSetBarLevel_Output" pos="0.855 0.2" size="0.1 0.015" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.2384" g="0.1878" b="0.0437" Text_r="1" Text_g="1" Text_b="1"  Background_r="0.15" Background_g="0.15" Background_b="0.15" margin="0 0 0 0.004"/> 
+			
+			<mCompanyGraphics_Element type="text" text="$l10n_shopItem_pig" name="Schweine" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.01 0" onSet="onSetTextName_Output"/>
+			<mCompanyGraphics_Element type="text" name="Schweine" pos="0.855 0.2" textHeight="0.013" margin="0 0 0.002 0.002" onSet="onSetTextLevel_Output"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="Schweine" onSet="onSetBarLevel_Output" pos="0.855 0.2" size="0.1 0.015" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.790" g="0.620" b="0.440" Text_r="1" Text_g="1" Text_b="1"  Background_r="0.15" Background_g="0.15" Background_b="0.15" margin="0 0 0 0.012"/> 
+		
+	</mCompanyGraphics_Element>
+</mCompanyGraphics>
